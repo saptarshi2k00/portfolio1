@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background: black;
+    clip-path:polygon(0 0,100% 0 ,100% 100%,70% 87%,0 100%);
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 2rem;
+    transition: all 0.3s ease-in;
+    font-size: 20px;
+}
+header nav .left a:hover{
+    color: cyan;
+}
+
+
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify{
+    justify-content: space-between;
+}
+header nav{
+    padding: 2rem 0;
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: cyan;
+}
+.btn:hover{
+    background-color:lightskyblue;
+}
+.my-image .right{
+    color: white;
+    margin-left: 3rem;
+}
+.my-image .right h1{
+    font-size: 3.5rem;
+    color:cyan;
+    margin-bottom: 0.5rem;
+}
+.my-image .right h3{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.my-image .right h3 span{
+    color: cyan;
+}
+.my-image .right p{
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+.flex1{
+ flex: 1;
+}
+section{
+    padding: 4rem 0;
+}
+.top{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#proj_head{
+    margin-bottom: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#proj_head span{
+    color: blue;
+}
+section .my_project p{
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+
+.project2{
+    margin-top:4.5rem;
+}
+.head h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 2rem;
+    margin-bottom: 7rem;
+
+}
+.head span{
+    color: blue;
+}
+section.skills{
+    background:lightgray
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    grid-column-gap: 2rem;
+}
+.card{
+    background: white;
+    padding: 1rem 2rem;
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.card img{
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card h2{
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: gray;
+}
+.card p{
+    color: grey;
+    line-height: 1.6rem;
+}
+.card:hover{
+    background-color: black;
+}
+.contact h2{
+    text-align: center;
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-decoration-line: bold;
+    font-size: 30px;
+    font-weight: 400;
+}
+.address{
+    text-align: center;
+    margin-top: 2rem;
+    font-size:20px ;
+    font-style: italic;
+}
